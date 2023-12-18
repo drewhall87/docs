@@ -278,7 +278,7 @@ ___
     sudo nano /etc/mysql/mariadb.conf.d/60-galera.cnf
     ```
     Uncomment the necessary lines and update the value of the key variables with respect to the server being created as in the image below:  
-    ![](img/galera_config_node_settings.png)  
+    ![](img/60-galera_config_node_settings.png)  
     The key-values pairs that'll be the same and different across each server node configuration file:  
     ```ini
     wsrep_cluster_name = "mdbc-01" # The value should be the same in all server node configuration files part of the same cluster
